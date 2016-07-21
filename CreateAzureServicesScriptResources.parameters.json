@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "value": "azcdmdnaubistorage"
+    },
+    "storageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "sqlServerName": {
+      "value": "azcdmdnaubisqlserver"
+    },
+    "sqlServerVersion": {
+      "value": "12.0"
+    },
+    "sqlAdministratorLogin": {
+      "value": ""
+    },
+    "sqlAdministratorLoginPassword": {
+      "value": ""
+    },
+    "sqlDatabaseName": {
+      "value": "azcdmdnaubisqldb"
+    },
+    "sqlCollation": {
+      "value": "SQL_Latin1_General_CP1_CI_AS"
+    },
+    "sqlEdition": {
+      "value": "Standard"
+    },
+    "sqlMaxSizeBytes": {
+      "value": "1073741824"
+    },
+    "sqlRequestedServiceObjectiveName": {
+      "value": "S0"
+    },
+    "web1SiteName": {
+      "value": "azcdmdnaubiregistration"
+    },
+    "web2SiteName": {
+      "value": "azcdmdnaubidashboard"
+    },
+    "webHostingPlanName": {
+      "value": "azcdmdnaubihostingplan"
+    },
+    "webSku": {
+      "value": "S1"
+    }
+  }
+}
